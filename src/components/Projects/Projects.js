@@ -24,16 +24,16 @@ const Projects = () => {
           <div className='projects'>
               <img src={Portfolio2} alt='Portfolio2' className='projectsImg' />
               <div className='projectDesc'>
-                <h3>Mobile App</h3>
-                <p>Little Lemon Restaurant, Capstone final Project was part of my Frontend Developer Professional Certification in Coursera, powered by Meta</p>
+                <h3>Lorem App</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elementum auctor tellus, et blandit purus tempor nec.</p>
                 <a href="./" rel="noopener noreferrer"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
               </div>
           </div>
           <div className='projects'>
             <img src={Portfolio3} alt='Portfolio2' className='projectsImg' />
             <div className='projectDesc'>
-              <h3>To-Do List App</h3>
-              <p>Little Lemon Restaurant, Capstone final Project was part of my Frontend Developer Professional Certification in Coursera, powered by Meta</p>
+              <h3>Lorem App</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elementum auctor tellus, et blandit purus tempor nec.</p>
               <a href='./' rel="noopener noreferrer"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
             </div>
           </div>
