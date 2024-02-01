@@ -2,8 +2,6 @@ import React, { useState, useRef, useEffect } from 'react'
 import './navbar.css'
 import logo from '../../assets/logo5.png'
 import { Link } from 'react-scroll'
-
-//import contact from '../../assets/contact_icon.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
 
