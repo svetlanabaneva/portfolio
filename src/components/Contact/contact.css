@@ -1,0 +1,100 @@
+#contact {
+    /*border: 1px solid aquamarine;*/
+    margin: 0 auto;
+
+    width: 100vw;
+    max-width: 75rem;
+}
+
+.container {
+   /*border: 1px solid #ff004f;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/*
+.contact-left {
+    border: 1px solid aquamarine;
+
+}
+.contact-right {
+    border: 1px solid pink
+
+}*/
+.contact-left p {
+    font-size: 0.75rem;
+}
+.contactIcon {
+    color: #ff004f;
+    margin-right: 0.25rem;
+    margin-left: 0.5rem;
+}
+
+.contactTitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.contactDesc {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+.contactForm {
+width: 100%;
+}
+.name, .email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(40, 40, 40);
+}
+.submitBtn {
+    background-color: #ff004f;
+    color: white;
+    margin-left: 0.5rem;
+    margin-bottom:  1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.75rem 3.5rem;
+    cursor: pointer;
+}
+
+.links {
+    display: inline-block;
+}
+.link {
+    color:#ABABAB;
+    object-fit: cover;
+    height: 1.25rem;
+    width: 1.25rem;
+    margin: 0.5rem;
+    transition: transform 0.5s;
+}
+.link:hover {
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+.cvBtn {
+    display: inline-block;
+    background: #ff004f;
+    margin: 2rem auto;
+    width: fit-content;
+    color:white;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border: 0.1rem solid #ff004f;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: background 0.5s;
+}
+
+@media screen and (max-width:850px) {
+
+}
