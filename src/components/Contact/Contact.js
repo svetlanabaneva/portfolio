@@ -1,9 +1,9 @@
 import React, {useRef} from 'react'
 import './contact.css'
 import cv from '../../assets/cv.pdf'
-import * as Yup from 'yup'
+//import * as Yup from 'yup'
 import emailjs from '@emailjs/browser';
-import { useFormik } from "formik";
+//import { useFormik } from "formik";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faSquarePhone } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -41,7 +41,7 @@ import {
 
 const Contact = () => {
 
-  
+  /*
     const formik = useFormik({
       initialValues: {
         firstName:"",
@@ -54,7 +54,7 @@ const Contact = () => {
         email: Yup.string().email("Invalid email").required("Required"),
         message: Yup.string().min(25, "Must be at least 25 characters").required("Required")
       }),
-    });
+    });*/
   /*------Sending Email with EmailJS-----------*/
   const form = useRef();
 
