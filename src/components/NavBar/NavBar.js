@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 import './navbar.css'
 import logo from '../../assets/logo5.png'
+import contact from '../../assets/contact.png'
 import { Link } from 'react-scroll'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
@@ -42,11 +43,11 @@ const NavBar = () => {
         <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>Projects</Link>
         <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'><span className='contactBold'>Contact me</span></Link>
       </div>
-      {/*<button className='desktopMenuBtn'  onClick={() => {
+<button className='desktopMenuBtn'  onClick={() => {
         document.getElementById('contact').scrollIntoView({behavior:'smooth'});
       }}>
         <img src={contact} alt= '' className='desktopMenuImg' /> Contact Me
-    </button>*/}
+    </button>
 
       <FontAwesomeIcon icon={faBars} style={{color: "#FF004F",}} className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/>
       <div className='navMenu' style={{display: showMenu? 'flex':'none'}} >

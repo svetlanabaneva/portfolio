@@ -14,12 +14,8 @@ import {
 /*----Social Links Icons-----*/
   const socials = [
     {
-      icon: faEnvelope,
-      url: "mailto: hello@example.com",
-    },
-    {
       icon: faGithub,
-      url: "https://github.com",
+      url: "https://github.com/svetlanabaneva",
     },
     {
       icon: faStackOverflow,
@@ -27,7 +23,7 @@ import {
     },
     {
       icon: faLinkedin,
-      url: "https://www.linkedin.com",
+      url: "https://linkedin.com/in/svetlana-baneva-4299975a",
     },
     {
         icon: faFacebook,
@@ -70,7 +66,7 @@ const Contact = () => {
             <div className='links'>
                 {socials.map(items =>{
                   return (
-                    <a href={items.url}>
+                    <a href={items.url} target="_blank"  rel="noreferrer">
                     <FontAwesomeIcon icon={items.icon}  className='link' />
                     </a>
                     )

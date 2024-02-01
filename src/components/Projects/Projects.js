@@ -18,7 +18,7 @@ const Projects = () => {
               <div className='projectDesc'>
                 <h3>Little Lemon Restaurant</h3>
                 <p>Little Lemon Restaurant, Capstone final Project was part of my Frontend Developer Professional Certification in Coursera, powered by Meta</p>
-                <a href='https://littlelemoncapstonemeta.netlify.app' target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                <a href='https://restaurant.svetlanabaneva.com/' target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
               </div>
           </div>
           <div className='projects'>
