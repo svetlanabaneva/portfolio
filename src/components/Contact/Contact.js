@@ -1,7 +1,9 @@
 import React, {useRef} from 'react'
 import './contact.css'
 import cv from '../../assets/cv.pdf'
+//import * as Yup from 'yup'
 import emailjs from '@emailjs/browser';
+//import { useFormik } from "formik";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faSquarePhone } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -11,7 +13,7 @@ import {
     faFacebook,
   } from "@fortawesome/free-brands-svg-icons";
 
-
+/*----Social Links Icons-----*/
   const socials = [
     {
       icon: faEnvelope,
@@ -33,21 +35,47 @@ import {
         icon: faFacebook,
         url: "https://facebook.com",
       },
-  ]; 
+  ];
+  /*---Yup Schema----*/
+
 
 const Contact = () => {
+
+  /*
+    const formik = useFormik({
+      initialValues: {
+        firstName:"",
+        email:"",
+        type:"",
+        comment:""
+      },
+      validationSchema: Yup.object({
+        name: Yup.string().required("Required"),
+        email: Yup.string().email("Invalid email").required("Required"),
+        message: Yup.string().min(25, "Must be at least 25 characters").required("Required")
+      }),
+    });*/
+  /*------Sending Email with EmailJS-----------*/
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_5k8p3nc', 'template_xnkgd7d', form.current, 'Ih3Da1u9aHgUdik9Z')
+    emailjs.sendForm('', '', form.current, '')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
-  };
+    };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    //formValidation();
+    sendEmail();
+
+  }
+
   return (
     <section id='contact' >
       <div className='container'>
@@ -68,11 +96,11 @@ const Contact = () => {
             <div><a href={cv} download className='cvBtn'>Download CV</a></div>
           </div>
           <div className='contact-right'>
-            <form className='contactForm' ref={form} onSubmit={sendEmail}>
+            <form className='contactForm' ref={form} onSubmit={handleSubmit}>
               <p className='contactDesc'>Please fill out the form to discuss any work opportunities</p>
-              <input type='text' className='name' placeholder='Your Name' name="from_name"/>
-              <input type='email' className='email' placeholder='Your Email' name='from_email'/>
-              <textarea name='message' rows='5' placeholder='Your Message' className='msg' />
+              <input type='text' className='name' placeholder='Your Name' name="from_name" required />
+              <input type='email' className='email' placeholder='Your Email' name='from_email' required />
+              <textarea name='message' rows='5' placeholder='Your Message' className='msg' required/>
               <div><button type='submit' className='submitBtn' value='Sent'>Submit</button></div>
             </form>
           </div>

@@ -62,10 +62,15 @@ width: 100%;
     border: none;
     border-radius: 0.5rem;
     font-size: 1rem;
+    font-weight: 800;
     padding: 0.75rem 3.5rem;
     cursor: pointer;
+    transition: background 0.5s;
 }
-
+.submitBtn:hover {
+    background: white;
+    color: #ff004f;
+}
 .links {
     display: inline-block;
 }
@@ -89,12 +94,12 @@ width: 100%;
     color:white;
     cursor: pointer;
     padding: 0.5rem 1.5rem;
-    border: 0.1rem solid #ff004f;
     border-radius: 0.5rem;
     font-size: 1rem;
+    font-weight: 800;
     transition: background 0.5s;
 }
-
-@media screen and (max-width:850px) {
-
+.cvBtn:hover {
+    background: white;
+    color: #ff004f;
 }
