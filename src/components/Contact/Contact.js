@@ -3,16 +3,19 @@ import './contact.css'
 import cv from '../../assets/cv.pdf'
 import emailjs from '@emailjs/browser';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faSquarePhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faSquarePhone,faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import {
   faStackOverflow,
     faGithub,
-    faLinkedin,
-    faFacebook,
+    faLinkedin
   } from "@fortawesome/free-brands-svg-icons";
 
 /*----Social Links Icons-----*/
   const socials = [
+    {
+      icon: faEnvelope,
+      url: "mailto: svetlana.baneva@gmail.com",
+    },
     {
       icon: faGithub,
       url: "https://github.com/svetlanabaneva",
@@ -25,10 +28,6 @@ import {
       icon: faLinkedin,
       url: "https://linkedin.com/in/svetlana-baneva-4299975a",
     },
-    {
-        icon: faFacebook,
-        url: "https://facebook.com",
-      },
   ];
 
 const Result = () => {
@@ -61,7 +60,7 @@ const Contact = () => {
 
           <div className='contact-left'>
             <h1 className='contactTitle'>Contact me</h1>
-            <p><FontAwesomeIcon icon={faEnvelope}  className='contactIcon' /> example@gmail.com</p>
+            <p><FontAwesomeIcon icon={faLocationDot}  className='contactIcon' /> 53619, Deutschland</p>
             <p><FontAwesomeIcon icon={faSquarePhone}  className='contactIcon' /> +4912345678</p>
             <div className='links'>
                 {socials.map(items =>{
