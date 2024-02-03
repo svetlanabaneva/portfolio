@@ -81,10 +81,7 @@
     }
     .mobMenu {
         display: flex;
-        width: 4rem;
-        height: 4rem;
+
     }
-    .logo {
-        height: 5rem;
-    }
+
 }
