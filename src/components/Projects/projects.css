@@ -1,23 +1,26 @@
 #portfolio {
+    /*border:1px solid #ccc;*/
     margin: 0 auto;
-    min-height: calc(100vh - 4rem);
-    width: 100vw;
-    max-width: 60rem;
+    width: 100%;
+    max-width: 75rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
 }
 .projectsTitle {
-    margin: 1rem 0;
+    margin-bottom: 1.5rem;
     font-size: 3rem;
-
 }
 .projectsList {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+
 }
 
 .projects {
@@ -99,4 +102,10 @@
         height: 48vw;
     }
 }
+@media screen and (max-width:900px) {
+    #portfolio {
+        right: -4rem;
+    }
+}
+
 

@@ -11,7 +11,7 @@ import { Link } from "react-scroll";
 const Projects = () => {
   return (
     <section id='portfolio'>
-      <h2 className='projectsTitle'>My Portfolio</h2>
+      <h2 className='projectsTitle'>My Projects</h2>
        <div className='projectsList'>
           <div className='projects' >
               <img src={Portfolio1} alt='Portfolio1' className='projectsImg' />

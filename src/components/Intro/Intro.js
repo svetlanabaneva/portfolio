@@ -38,8 +38,10 @@ const Intro = () => {
 }, [])
   return (
    <section id='intro'>
+   {/*+++++++START CONTAINER++++++++++*/}
     <div className='introContent'>
-        <span className='introText'>
+      {/*+++++++LEFT CONTAINER++++++++++*/}
+        <div className='introText'>
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i, </span>
             <br />
@@ -56,10 +58,14 @@ const Intro = () => {
               strArray={jobArray}
               idx={22}
             />
-        </span>
-        <p className='introPara'>I am a motivated and self-driven front end developer, re-entering the field. <br />After a long break invested in my family I am ready for new challenges.<br />Having spent more than an year in training on the newest technologies<br /> I am eager to get my hands on real projects.</p>
-    </div>
-    <img src={profile} alt="Profile" className='bg' />
+          <p className='introPara'>I am a motivated and self-driven front end developer, re-entering the field. <br />After a long break invested in my family I am ready for new challenges.<br />Having spent more than an year in training on the newest technologies<br /> I am eager to get my hands on real projects.</p>
+        </div>
+        {/*+++++++LEFT CONTAINER++++++++++*/}
+        {/*+++++++RIGHT CONTAINER++++++++++*/}
+        <img src={profile} alt="Profile" className='bg' />
+         {/*+++++++RIGHT CONTAINER++++++++++*/}
+      </div>
+   {/*+++++++END CONTAINER****************/}
    </section>
   )
 }
