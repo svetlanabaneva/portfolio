@@ -16,17 +16,11 @@
     font-size: 3rem;
     font-weight: 600;
 }
-.skillDesc {
-    font-weight: 200;
-    font-size: 1rem;
-    max-width: 50rem;
-    text-align:justify;
-    padding: 1rem;
-}
+
 .skillBars {
     margin: 1.5rem;
     width: 100vw;
-    max-width: 60%;
+    max-width: 70%;
     text-align: left;
 }
 .skillBar:hover {
@@ -48,7 +42,7 @@
     margin: 2rem;
 }
 .skillBarText {
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-size: 0.75rem;
     font-weight: 200;
 }

@@ -7,7 +7,7 @@ import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 const Intro = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = [' ', 'S', 'v', 'e', 't', 'l', 'a', 'n', 'a', ' ']
+  const nameArray = [' ', 'S', 'v', 'e', 't', 'l', 'a', 'n', 'a', ',', '']
   const jobArray = [
     'f',
     'r',
@@ -42,6 +42,7 @@ const Intro = () => {
     <div className='introContent'>
       {/*+++++++LEFT CONTAINER++++++++++*/}
         <div className='introText'>
+          <div className='heading'>
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i, </span>
             <br />
@@ -52,17 +53,21 @@ const Intro = () => {
             strArray={nameArray}
             idx={15}
             />
-        <br />
-            <AnimatedLetters
+          </div>
+            <span className='profession'><AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
               idx={22}
-            />
-          <p className='introPara'>I am a motivated and self-driven front end developer, re-entering the field. <br />After a long break invested in my family I am ready for new challenges.<br />Having spent more than an year in training on the newest technologies<br /> I am eager to get my hands on real projects.</p>
+            /></span>
+          <div className='introPara'>
+            <p className=''>I am a motivated and self-driven front end developer, re-entering the field. After a long break invested in my family I am ready for new challenges.Having spent more than an year in training on the newest technologies. I am eager to get my hands on real projects.</p>
+          </div>
         </div>
         {/*+++++++LEFT CONTAINER++++++++++*/}
         {/*+++++++RIGHT CONTAINER++++++++++*/}
+        <div className='img'>
         <img src={profile} alt="Profile" className='bg' />
+        </div>
          {/*+++++++RIGHT CONTAINER++++++++++*/}
       </div>
    {/*+++++++END CONTAINER****************/}

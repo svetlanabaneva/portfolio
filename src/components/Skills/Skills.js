@@ -6,14 +6,13 @@ import {faCode, faMobileScreenButton, faObjectGroup} from "@fortawesome/free-sol
 export const Skills = () => {
   return (
     <section id='skills'>
-        <span className='skillTitle'>What I do</span>
+        <span className='skillTitle'>My Services</span>
         <div className='skillBars'>
 
             <div className='skillBar'>
                 <FontAwesomeIcon icon={faObjectGroup}className='skillBarImg' />
                 <div className='skillBarText'>
                     <h2>UI/UX Design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
             </div>
 
@@ -21,7 +20,6 @@ export const Skills = () => {
                 <FontAwesomeIcon icon={faCode} className='skillBarImg' />
                 <div className='skillBarText'>
                     <h2>Frontend Development</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
             </div>
 
@@ -29,10 +27,9 @@ export const Skills = () => {
                 <FontAwesomeIcon icon={faMobileScreenButton} className='skillBarImg' />
                 <div className='skillBarText'>
                     <h2>App Development</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
             </div>
-        </div>
+    </div>
     </section>
   )
 }
