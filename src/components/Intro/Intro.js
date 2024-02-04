@@ -59,7 +59,7 @@ const Intro = () => {
               idx={22}
             /></span>
           <div className='introPara'>
-            <p className=''>I am a motivated and self-driven front end developer, re-entering the field. After a long break invested in my family I am ready for new challenges.Having spent more than an year in training on the newest technologies. I am eager to get my hands on real projects.</p>
+            <p className=''>I am a motivated and self-driven front end developer, re-entering the field. After a long break invested in my family I am ready for new challenges. Having spent more than an year in training on the newest technologies, I am eager to get my hands on exciting projects.</p>
           </div>
         </div>
         {/*+++++++LEFT CONTAINER++++++++++*/}
