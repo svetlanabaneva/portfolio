@@ -3,8 +3,6 @@ import emailjs from '@emailjs/browser';
 import './contacttest.css'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters' 
 import Map from '../Map/Map'
-import Socials from '../Socials/Socials';
-
 
   /*Success Message-----*/
 const Result = () => {
