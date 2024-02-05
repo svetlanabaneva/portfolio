@@ -1,10 +1,8 @@
 import { React, useState, useEffect } from 'react'
 import './intro.css'
 import cv from '../../assets/cv.pdf'
-
 import profile from '../../assets/profile.JPG'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
-import Socials from '../Socials/Socials';
 
 const Intro = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
