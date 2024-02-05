@@ -6,6 +6,7 @@
 }
 
 .contact-container {
+    margin: 1rem;
    /*border: 1px solid #70dd0a;*/
     display: flex;
     flex-direction: row;
@@ -17,11 +18,11 @@
 
 .contact-left {
     /*border: 3px solid aquamarine;*/
-
+    max-width: 35rem;
 }
 .contact-right {
-   /* border: 2px solid pink*/
-
+   /*border: 2px solid pink;*/
+   max-width: 35rem;
 }
 .contact-left p {
     font-size: 0.75rem;
@@ -42,7 +43,6 @@
     font-weight: 300;
 }
 .contactForm {
-    width: 35vw;
     margin-left: 0.5rem;
     margin-right: 1.25rem;
 }

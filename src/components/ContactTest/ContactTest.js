@@ -50,7 +50,7 @@ const ContactTest = () => {
                      />
                 </h1>
                     <form className='contactForm' ref={form} onSubmit={sendEmail}>
-                    <span className='contactDesc'>Please fill out the form to discuss any work opportunities</span>
+                    <p className='contactDesc'>Please fill out the form to discuss any work opportunities</p>
                     <input type='text' className='name' placeholder='Your Name' name="from_name" required />
                     <input type='email' className='email' placeholder='Your Email' name='from_email' required />
                     <textarea name='message' rows='5' placeholder='Your Message' className='msg' required/>
