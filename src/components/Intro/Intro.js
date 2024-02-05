@@ -1,8 +1,10 @@
 import { React, useState, useEffect } from 'react'
 import './intro.css'
+import cv from '../../assets/cv.pdf'
 
 import profile from '../../assets/profile.JPG'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
+import Socials from '../Socials/Socials';
 
 const Intro = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -61,6 +63,7 @@ const Intro = () => {
           <div className='introPara'>
             <p className=''>I am a motivated and self-driven front end developer, re-entering the field. After a long break invested in my family I am ready for new challenges. Having spent more than an year in training on the newest technologies, I am eager to get my hands on exciting projects.</p>
           </div>
+          <div><a href={cv} download className='cvBtn'>Download CV</a></div>
         </div>
         {/*+++++++LEFT CONTAINER++++++++++*/}
         {/*+++++++RIGHT CONTAINER++++++++++*/}

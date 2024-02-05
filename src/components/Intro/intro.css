@@ -42,6 +42,24 @@
     font-size: 1.5rem;
     color: #FF004F;
 }
+
+.cvBtn {
+    display: inline-block;
+    background: #ff004f;
+    margin: 2rem auto;
+    width: fit-content;
+    color:white;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 800;
+    transition: background 0.5s;
+}
+.cvBtn:hover {
+    background: white;
+    color: #ff004f;
+}
 @media screen and (max-width:1115px) {
     .introContent {
     flex-wrap: wrap;

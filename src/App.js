@@ -1,4 +1,5 @@
-import Contact from "./components/Contact/Contact";
+//import Contact from "./components/Contact/Contact";
+import ContactTest from "./components/ContactTest/ContactTest";
 //import Test from "./components/Test/Test";
 import Footer from "./components/Footer/Footer";
 import Intro from "./components/Intro/Intro";
@@ -13,7 +14,7 @@ function App() {
       <Intro />
       <Skills />
       <Projects />
-      <Contact />
+      <ContactTest />
       <Footer />
     </div>
   );

@@ -1,0 +1,130 @@
+#contact {
+    /*border: 1px solid aquamarine;*/
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 75rem;
+}
+
+.contact-container {
+   /*border: 1px solid #70dd0a;*/
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.contact-left {
+    /*border: 3px solid aquamarine;*/
+
+}
+.contact-right {
+   /* border: 2px solid pink*/
+
+}
+.contact-left p {
+    font-size: 0.75rem;
+}
+.contactIcon {
+    color: #ff004f;
+    margin-right: 0.25rem;
+    margin-left: 0.5rem;
+}
+
+.contactTitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.contactDesc {
+    padding: 0.5rem;
+    font-size: medium;
+    font-weight: 300;
+}
+.contactForm {
+    width: 35vw;
+    margin-left: 0.5rem;
+    margin-right: 1.25rem;
+}
+.name, .email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(40, 40, 40);
+}
+.submitBtn {
+    background-color: #ff004f;
+    color: white;
+    margin-left: 0.5rem;
+    margin-bottom:  1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 0.75rem 3.5rem;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+.submitBtn:hover {
+    background: white;
+    color: #ff004f;
+}
+.links {
+    display: inline-block;
+}
+.link {
+    color:#ABABAB;
+    object-fit: cover;
+    height: 1.25rem;
+    width: 1.25rem;
+    margin: 0.5rem;
+    transition: transform 0.5s;
+}
+.link:hover {
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+/*-----Moved to Intro------------
+.cvBtn {
+    display: inline-block;
+    background: #ff004f;
+    margin: 2rem auto;
+    width: fit-content;
+    color:white;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 800;
+    transition: background 0.5s;
+}
+.cvBtn:hover {
+    background: white;
+    color: #ff004f;
+} */
+
+.info-map {
+    width: 15rem;
+    position: relative;
+    background: rgb(40, 40, 40);
+    top: 30%;
+    z-index: 999999;
+    padding: 0.5rem;
+    font-size: smaller;
+}
+.map-wrap {
+    width: 500px;
+    height: 500px;
+ border:1px solid magenta;
+}
+@media screen and (max-width:500px) {
+    .map-wrap {
+    width: 5rem;
+    }
+
+}

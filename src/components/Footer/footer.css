@@ -1,9 +1,14 @@
 .footer {
+    width: 100%;
+    max-width: 75rem;
+    margin: 0 auto;
+    border: 1px solid #ff0049;
     width: 100vw;
     height: 4rem;
     background-color: rgb(40, 40, 40);
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-content: center;
     justify-content: center;
     font-weight: 300;
     font-size: small;

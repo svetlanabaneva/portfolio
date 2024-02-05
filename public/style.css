@@ -12,3 +12,6 @@ body {
     overflow: hidden;
     overflow-y: scroll;
 }
+button, a {
+    cursor: pointer;
+}
