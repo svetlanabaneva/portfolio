@@ -66,8 +66,6 @@ const ContactTest = () => {
                     Deutschland,
                     <br/>
                     53619,Rheinbreitbach
-                    <br/>
-                    <span>svetlana.baneva@gmail.com</span>
                     </p>
                 </div>
                 <div><Map /></div>

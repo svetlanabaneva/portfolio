@@ -27,7 +27,7 @@ const socials = [
     },
     {
       icon: faFigma,
-      url: "figma.com/@666179a9_4b46_4",
+      url: "https://figma.com/@666179a9_4b46_4",
     },
   ];
 const Socials = () => {
