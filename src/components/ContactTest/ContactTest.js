@@ -4,6 +4,7 @@ import './contacttest.css'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters' 
 import Map from '../Map/Map'
 
+
   /*Success Message-----*/
 const Result = () => {
     return (
