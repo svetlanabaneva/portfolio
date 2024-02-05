@@ -6,7 +6,7 @@
 }
 
 .contact-container {
-    margin: 1rem;
+    margin: 3rem;
    /*border: 1px solid #70dd0a;*/
     display: flex;
     flex-direction: row;
@@ -113,18 +113,8 @@
     position: relative;
     background: rgb(40, 40, 40);
     top: 30%;
+    right: -1rem;
     z-index: 999999;
     padding: 0.5rem;
     font-size: smaller;
-}
-.map-wrap {
-    width: 500px;
-    height: 500px;
- border:1px solid magenta;
-}
-@media screen and (max-width:500px) {
-    .map-wrap {
-    width: 5rem;
-    }
-
 }

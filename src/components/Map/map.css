@@ -1,5 +1,11 @@
 .map-wrap {
-    width: 500px;
-    height: 500px;
- border:1px solid magenta;
+    width: 30rem;
+    height:30rem;
+}
+@media screen and (max-width:500px) {
+    .map-wrap {
+        width: 20rem;
+        height: 20rem;
+    }
+
 }
