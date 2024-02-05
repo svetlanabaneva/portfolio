@@ -13,7 +13,15 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '20.x'
-      
+
+    - name: Create .env file
+      run: |
+        touch .env
+        echo REACT_APP_SERVICE_ID=${{ secrets.SERVICE_ID }} >> .env
+        echo REACT_APP_EMAIL_TEMPLATE=${{ secrets.EMAIL_TEMPLATE }} >> .env
+        echo REACT_APP_PUBLIC_KEY=${{ secrets.PUBLIC_KEY }} >> .env
+        cat .env
+
     - name: Build Project
       run: |
         npm install
