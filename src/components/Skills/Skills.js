@@ -6,7 +6,7 @@ import {faCode, faMobileScreenButton, faObjectGroup} from "@fortawesome/free-sol
 export const Skills = () => {
   return (
     <section id='skills'>
-        <span className='skillTitle'>My Services</span>
+        <span className='skillTitle'>My Skills</span>
         <div className='skillBars'>
 
             <div className='skillBar'>
