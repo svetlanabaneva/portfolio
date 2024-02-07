@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className='footer'>
       <Socials />
       <div>
-      Copyright &#169; 2024 Svetlana Baneva. All rights reserved.;
+      Copyright &#169; 2024 Svetlana Baneva. All rights reserved.
       </div>
     </footer>
   )
