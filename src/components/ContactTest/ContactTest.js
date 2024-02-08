@@ -70,7 +70,7 @@ const ContactTest = () => {
                     <br/>
                     Deutschland,
                     <br/>
-                    53619,Rheinbreitbach
+                    53619, Rheinbreitbach
                     </p>
                 </div>
                 <div><Map /></div>

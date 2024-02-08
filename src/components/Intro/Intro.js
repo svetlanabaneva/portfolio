@@ -71,6 +71,7 @@ const Intro = () => {
          {/*+++++++RIGHT CONTAINER++++++++++*/}
       </div>
    {/*+++++++END CONTAINER****************/}
+
    </section>
   )
 }
