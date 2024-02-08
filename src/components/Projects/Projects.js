@@ -25,8 +25,8 @@ const Projects = () => {
               <img src={Portfolio2} alt='Portfolio2' className='projectsImg' />
               <div className='projectDesc'>
                 <h3>To Do React App</h3>
-                <p>A todo list web app, built with ReactJS and localStorage</p>
-                <a href="https://todolistbaneva.netlify.app/" rel="noopener noreferrer"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+                <p>A Todo list web application, built with ReactJS and localStorage</p>
+                <a href="https://todolistbaneva.netlify.app/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
               </div>
           </div>
           <div className='projects'>
