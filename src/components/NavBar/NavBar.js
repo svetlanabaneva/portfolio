@@ -38,9 +38,9 @@ const NavBar = () => {
 
       <Link activeClass='active' to='intro' spy={false} smooth={true} offset={-100} duration={500}><img src={logo} alt='Logo' className='logo' /></Link>      <div className='desktopMenu' >
         <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>Home</Link>
-        <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>About</Link>
-        <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'>Projects</Link>
-        <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'><FontAwesomeIcon icon={faMessage} className='desktopMenuImg' />Contact Me</Link>
+        <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>About</Link>
+        <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-90} duration={500} className='desktopMenuListItem'>Projects</Link>
+        <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem'><FontAwesomeIcon icon={faMessage} className='desktopMenuImg' />Contact Me</Link>
         
         {/**<button className='desktopMenuBtn'  onClick={() => {
           document.getElementById('contact').scrollIntoView({behavior:'smooth'});

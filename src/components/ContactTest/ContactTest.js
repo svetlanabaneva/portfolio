@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import './contacttest.css'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters' 
 import Map from '../Map/Map'
-
+import Socials from '../Socials/Socials'
 
   /*Success Message-----*/
 const Result = () => {
@@ -62,6 +62,7 @@ const ContactTest = () => {
                     <div><button type='submit' className='submitBtn' value='Sent'>Submit</button></div>
                     </form>
                     <div className='confirm'>{result ? <Result /> : null}</div>
+                    <div className='socials'><Socials /></div>
             </div>
             <div className='contact-right'>
                 <div className='info-map'>
@@ -75,7 +76,6 @@ const ContactTest = () => {
                 </div>
                 <div><Map /></div>
             </div>
-
         </div>
     </section>
   )

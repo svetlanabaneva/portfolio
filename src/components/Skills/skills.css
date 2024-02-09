@@ -1,5 +1,6 @@
 #skills {
    /*border:1px solid aqua;*/
+   height: calc(100vh - 5rem);
     overflow: hidden;
     width: 100%;
     max-width: 75rem;
@@ -10,6 +11,8 @@
     text-align: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    animation: slideInUp;
+    animation-duration: 2s;
 }
 .skillTitle {
     padding-top: 1rem;

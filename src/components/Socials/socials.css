@@ -4,8 +4,8 @@
 .link {
     color:#ABABAB;
     object-fit: cover;
-    height: 2rem;
-    width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
     margin: 0.5rem;
     transition: transform 0.5s;
 }
