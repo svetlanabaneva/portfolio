@@ -40,9 +40,9 @@
     border-radius: 0.5rem;
     transition: background 0.5s, transform 0.5s;
     animation: fadeInRight;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-delay: 1s;
-    animation-direction: forwards;
+    animation-fill-mode: forwards;
 }
 .skillBarImg {
     object-fit: cover;
