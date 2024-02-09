@@ -1,6 +1,6 @@
 #skills {
    /*border:1px solid aqua;*/
-   height: calc(100vh - 5rem);
+
     overflow: hidden;
     width: 100%;
     max-width: 75rem;
@@ -11,16 +11,17 @@
     text-align: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    animation: slideInUp;
-    animation-duration: 2s;
 }
 .skillTitle {
     padding-top: 1rem;
     font-size: 3rem;
     font-weight: 600;
+    animation: fadeInRight;
+    animation-duration: 2s;
 }
 
 .skillBars {
+
     margin: 1.5rem;
     width: 100vw;
     max-width: 70%;
@@ -31,12 +32,17 @@
     transform: translate(-10px);
 }
 .skillBar {
+
     background-color: rgb(50, 50, 50);
     display: flex;
     margin: 1rem;
     padding: 1.5rem, 2rem;
     border-radius: 0.5rem;
     transition: background 0.5s, transform 0.5s;
+    animation: fadeInRight;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-direction: forwards;
 }
 .skillBarImg {
     object-fit: cover;
